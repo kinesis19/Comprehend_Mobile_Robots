@@ -1,5 +1,5 @@
-public class ExampleCasting {
-    public static void main(String[] args) {
+public class ExampleCasting{
+    public static void main(String[] args){
         int num1 = 1, num2 = 4;
 
         double result = num1 / num2;
