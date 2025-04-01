@@ -3,7 +3,7 @@ public class WordQuiz extends Quiz {
     private String correctAnswer;
 
     public WordQuiz(String question, String userAnswer) {
-        super(question, userAnswer);
+        super(question);
         this.correctAnswer = userAnswer;
     }
 

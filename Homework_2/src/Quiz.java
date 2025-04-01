@@ -1,9 +1,8 @@
 public abstract class Quiz {
 
     String question;
-    String userAnswer;
 
-    public Quiz(String question, String userAnswer) {
+    public Quiz(String question) {
         this.question = question;
     }
 
@@ -13,4 +12,4 @@ public abstract class Quiz {
 
     public abstract boolean checkAnswer(String input);
 
-};
+}
